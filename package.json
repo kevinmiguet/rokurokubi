@@ -1,7 +1,7 @@
 {
-  "name": "easy-manga",
+  "name": "rokurokubi",
   "version": "1.0.0",
-  "description": "manga downloader powered by headless chrome for websites like mangafox",
+  "description": "Versatile headless chrome manga downloader that can work with several websites",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
