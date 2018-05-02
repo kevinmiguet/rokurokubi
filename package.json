@@ -1,0 +1,26 @@
+{
+  "name": "easy-manga",
+  "version": "1.0.0",
+  "description": "manga downloader powered by headless chrome for websites like mangafox",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/puppeteer": "^1.2.1",
+    "mocha": "^5.0.0",
+    "should": "^13.2.1"
+  },
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "@types/mocha": "^2.2.48",
+    "@types/should": "^13.0.0",
+    "describe": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "mkdirp-promise": "^5.0.1",
+    "puppeteer": "^1.2.0"
+  },
+  "scripts": {
+    "setup": "yarn install && yarn build",
+    "build": "tsc --pretty",
+    "build:watch": "tsc --pretty --watch"
+  }
+}
